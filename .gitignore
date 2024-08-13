@@ -1,0 +1,19 @@
+# Rust build directory
+**/target/
+
+# Rust/Cargo specific files
+**/*.rs.bk
+#Cargo.lock    # (라이브러리 프로젝트의 경우 주석 처리하거나 삭제 가능)
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+**/.DS_Store
+**/Thumbs.db
+
+# Test results
+**/test-results/
